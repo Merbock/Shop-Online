@@ -1,0 +1,19 @@
+.button {
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  background-color: #6d5bd0;
+  cursor: pointer;
+  transition: background-color .2s linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #0b499b;
+}
+
+.button:active {
+  background-color: #75a0dc;
+}

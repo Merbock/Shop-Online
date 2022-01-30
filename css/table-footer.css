@@ -1,0 +1,79 @@
+.table-footer__box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding: 15px 20px 15px 0;
+  background-color: #f4f2ff;
+}
+
+.table-footer__btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background-color: transparent;
+  color: #6e6893;
+  font-weight: 600;
+  transition: outline-color .2s linear, color .2s linear;
+}
+
+.table-footer__btn:hover,
+.table-footer__btn:focus {
+  outline-color: #6e6893;
+  color: #000;
+}
+
+.table-footer__btn:active {
+  color: rgb(189, 182, 182);
+}
+
+.table-footer__btn:hover svg path {
+  transition: fill .2s linear;
+}
+
+.table-footer__btn:hover svg path,
+.table-footer__btn:focus svg path {
+  fill: #000;
+}
+
+.table-footer__btn:active svg path {
+  fill: rgb(189, 182, 182);
+}
+
+.table-footer__page {
+  text-transform: initial;
+}
+
+.table-footer__left,
+.table-footer__right {
+  border: none;
+  background-color: transparent;
+  transition: outline-color .2s linear;
+}
+
+.table-footer__left:hover,
+.table-footer__right:focus {
+  outline-color: #6e6893;
+}
+
+.table-footer__left svg path,
+.table-footer__right svg path {
+  transition: fill .2s linear;
+}
+
+.table-footer__left:hover svg path,
+.table-footer__left:focus svg path,
+.table-footer__right:hover svg path,
+.table-footer__right:focus svg path {
+  fill: #000;
+}
+
+.table-footer__left:active svg path,
+.table-footer__right:active svg path {
+  fill: rgb(189, 182, 182);
+}
+
+.table-footer__controls {
+  display: flex;
+  gap: 50px;
+}

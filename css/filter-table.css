@@ -1,0 +1,110 @@
+.filter-table {
+  border-spacing: 0;
+}
+
+.filter-table__header {
+  background-color: #f4f2ff;
+}
+
+.filter-table__head {
+  text-align: left;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  padding: 15px 0;
+  border-top: 1px solid #d9d5ec;
+}
+
+.filter-table__head:first-child {
+  padding-left: 15px;
+}
+
+.filter-table__head:last-child {
+  padding-right: 15px;
+}
+
+.filter-table__col {
+  padding: 13px 0;
+  border-top: 1px solid #d9d5ec;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #25213b;
+  text-transform: initial;
+}
+
+.filter-table__col:first-child {
+  padding-left: 15px;
+}
+
+.filter-table__col:last-child {
+  padding-right: 15px;
+}
+
+.filter-table__col:last-child {
+  padding-right: 15px;
+}
+
+.filter-table__btn {
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+.filter-table__btn svg path {
+  transition: fill .2s linear, stroke .2s linear;
+}
+
+.filter-table__btn:hover svg path,
+.filter-table__btn:focus svg path {
+  fill: #000;
+}
+
+.filter-table__btn:hover svg g path,
+.filter-table__btn:focus svg g path {
+  fill: none;
+  stroke: #000;
+}
+
+.filter-table__btn:active svg path {
+  fill: rgb(189, 182, 182);
+}
+
+.filter-table__btn:active svg g path {
+  fill: none;
+  stroke: rgb(189, 182, 182);
+}
+
+.filter-table__col--icon {
+  width: 20px;
+  height: 20px;
+}
+
+.filter-table__col--icon {
+  padding-right: 20px;
+}
+
+.filter-table__foot {
+  padding: 15px 0;
+}
+
+.filter-table__head--each,
+.filter-table__head--number {
+  text-align: center;
+}
+
+.filter-table__head--cost,
+.filter-table__head--result {
+  text-align: right;
+}
+
+.filter-table__head--cost {
+  padding-left: 30px;
+}
+
+.filter-table__head--result {
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+

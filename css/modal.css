@@ -1,0 +1,92 @@
+.modal-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, .8);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f2f0f9;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  padding: 32px 104px 39px 108px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  background-color: transparent;
+  background-image: url("../img/icon.svg");
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.modal__top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #c6c2de;
+  margin-bottom: 24px;
+}
+
+.modal__id {
+  margin-left: auto;
+  margin-right: 13px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #c5c5c5;
+}
+
+.modal__btn {
+  padding: 0;
+  border: none;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.modal__btn svg g path {
+  transition: stroke .2s linear;
+}
+
+.modal__btn:hover svg g path,
+.modal__btn:focus svg g path {
+  stroke: #000;
+}
+
+.modal__btn:active svg g path {
+  stroke: rgb(189, 182, 182);
+}
+
+.modal__bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal__btn-good {
+  padding: 10px 25px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 710px) {
+  .modal__bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modal__sum {
+    align-self: center;
+  }
+}

@@ -1,0 +1,24 @@
+.goods {
+  padding-top: 79px;
+}
+
+.goods__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #c6c2de;
+}
+
+@media (max-width: 480px) {
+  .goods__sum {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .goods__price {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

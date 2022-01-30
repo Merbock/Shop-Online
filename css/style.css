@@ -1,0 +1,16 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "global.css";
+@import "visually-hidden.css";
+@import "container.css";
+@import "button.css";
+@import "title.css";
+@import "sum.css";
+@import "price.css";
+@import "goods.css";
+@import "filter.css";
+@import "filter-table.css";
+@import "table-footer.css";
+@import "modal.css";
+@import "form.css";
+
